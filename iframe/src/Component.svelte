@@ -8,5 +8,7 @@
 </script>
 
 <div use:styleable={$component.styles}>
-  This is a custom component. The text setting is: {text}.
+  <iframe src="https://www.example.com" width="600" height="400" style="border:1px solid black;">
+        Seu navegador não suporta iFrames.
+    </iframe>
 </div>
